@@ -6,6 +6,7 @@ function Gallery(props) {
         name: "commercial",
         description: "Photos of grocery stores, food trucks, and other commercial projects",
     }
+    console.log(currrentCategory.photoPath)
     return (
     <section>
         <h1>{capitalizeFirstLetter(currrentCategory.name)}</h1>
