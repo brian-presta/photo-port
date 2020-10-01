@@ -20,7 +20,6 @@ function Nav(props) {
     setCurrentCategory(category)
     setNav({gallery:true})
   }
-  console.log(currentNav)
   return (
             <header>
               <h2>
